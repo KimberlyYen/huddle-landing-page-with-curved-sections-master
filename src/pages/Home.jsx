@@ -21,9 +21,13 @@ function Home() {
 
       <img src={screenMockups} alt="screenMockups" className="my-16" />
 
-      <div className="flex flex-row justify-center">
-        <img src={iconCommunities} alt="screenMockups" className="my-16" />
-        <h2>1.4k+</h2>
+      <div className="flex flex-col items-center justify-center">
+        <img
+          src={iconCommunities}
+          alt="screenMockups"
+          className="w-8 h-8 my-16"
+        />
+        <h2 className="text-5xl font-bold">1.4k+</h2>
         <p>Communities Formed</p>
       </div>
     </>
