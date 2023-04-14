@@ -4,7 +4,7 @@ import Button from "../components/Button";
 function Nav() {
   return (
     <div className="grid grid-cols-2 py-8 ">
-      <img src={logo} alt="logo" className="w-32 " />
+      <img src={logo} alt="logo w-4" />
       <Button />
     </div>
   );

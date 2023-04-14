@@ -1,5 +1,6 @@
 import Button from "../components/Button";
 import screenMockups from "../assets/screenMockups.svg";
+import iconCommunities from "../assets/iconCommunities.svg";
 
 function Home() {
   return (
@@ -19,6 +20,12 @@ function Home() {
       <Button />
 
       <img src={screenMockups} alt="screenMockups" className="my-16" />
+
+      <div className="flex flex-row justify-center">
+        <img src={iconCommunities} alt="screenMockups" className="my-16" />
+        <h2>1.4k+</h2>
+        <p>Communities Formed</p>
+      </div>
     </>
   );
 }
