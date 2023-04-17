@@ -3,9 +3,14 @@ import Button from "../components/Button";
 
 function Nav() {
   return (
-    <div className="grid grid-cols-2 py-16 ">
-      <img src={logo} alt="logo" className="w-8 h-8" />
-      <Button />
+    <div className="grid grid-cols-2">
+      <div>
+        <img src={logo} alt="logo" className="w-full h-full" />
+      </div>
+
+      <div className="">
+        <Button />
+      </div>
     </div>
   );
 }
