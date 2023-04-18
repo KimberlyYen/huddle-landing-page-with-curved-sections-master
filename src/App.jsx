@@ -31,10 +31,10 @@ function App() {
         <img
           src={bgSectionTopMobile1}
           alt="bgSectionTopMobile1"
-          className="lg:hidden"
+          className="w-full lg:hidden"
         />
 
-        <BgSectionTopDesktop1 className="hidden lg:flex" />
+        <BgSectionTopDesktop1 className="hidden 2xl:flex " />
 
         <div className="flex flex-col lg:flex-row ">
           <img
@@ -60,7 +60,7 @@ function App() {
         <img
           src={bgSectionBottomMobile1}
           alt="bgSectionBottomMobile1"
-          className="pb-16 lg:hidden"
+          className="w-full pb-16 lg:hidden"
         />
         <BgSectionBottomDesktop1 className="hidden lg:flex" />
       </div>
@@ -90,7 +90,7 @@ function App() {
         <img
           src={bgSectionTopMobile2}
           alt="bgSectionTopMobile2"
-          className="lg:hidden "
+          className="w-full lg:hidden"
         />
         <BgSectionTopDesktop2 className="hidden lg:flex" />
 
@@ -118,25 +118,27 @@ function App() {
         <img
           src={bgSectionBottomMobile2}
           alt="bgSectionBottomMobile2"
-          className="lg:hidden"
+          className="w-full lg:hidden"
         />
         <BgSectionBottomDesktop2 className="hidden lg:flex" />
       </div>
 
-      <div className="flex flex-col items-center ">
-        <h2 className="w-3/4 mt-16 text-2xl font-bold text-center lg:text-4xl">
-          Ready To Build Your Community?
-        </h2>
+      <div className="mb-48">
+        <div className="flex flex-col items-center ">
+          <h2 className="w-3/4 mt-16 text-2xl font-bold text-center lg:text-4xl">
+            Ready To Build Your Community?
+          </h2>
+        </div>
+        <ButtonFree />
       </div>
-      <ButtonFree />
 
       <footer>
         <img
           src={bgFooterTopMobile}
           alt="bgFooterTopMobile"
-          className="mt-48 lg:hidden"
+          className="w-full mt-48 lg:hidden"
         />
-        <BgFooterTopDesktop className="hidden lg:flex" />
+        <BgFooterTopDesktop className="hidden 2xl:flex" />
 
         <div className="bg-[#00242D] text-white pt-16 px-8 lg:flex-row lg:flex">
           <div className="lg:w-1/2 lg:p-32 lg:order-last">
